@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40ADDF721C8E7B6B0007171E /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 40ADDF711C8E7B6B0007171E /* main.c */; };
+		409567A11C9FA59100691980 /* bst.c in Sources */ = {isa = PBXBuildFile; fileRef = 40ADDF781C8E7CB70007171E /* bst.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		409567A21C9FA6B600691980 /* data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data; sourceTree = "<group>"; };
 		40ADDF6E1C8E7B6B0007171E /* BinarySearchTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BinarySearchTree; sourceTree = BUILT_PRODUCTS_DIR; };
-		40ADDF711C8E7B6B0007171E /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		40ADDF781C8E7CB70007171E /* bst.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bst.c; sourceTree = "<group>"; };
+		40ADDF791C8E7CB70007171E /* bst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bst.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,9 @@
 		40ADDF701C8E7B6B0007171E /* BinarySearchTree */ = {
 			isa = PBXGroup;
 			children = (
-				40ADDF711C8E7B6B0007171E /* main.c */,
+				40ADDF781C8E7CB70007171E /* bst.c */,
+				40ADDF791C8E7CB70007171E /* bst.h */,
+				409567A21C9FA6B600691980 /* data */,
 			);
 			path = BinarySearchTree;
 			sourceTree = "<group>";
@@ -118,7 +122,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40ADDF721C8E7B6B0007171E /* main.c in Sources */,
+				409567A11C9FA59100691980 /* bst.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +241,7 @@
 				40ADDF771C8E7B6B0007171E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
